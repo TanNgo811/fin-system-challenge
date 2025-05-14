@@ -48,7 +48,7 @@ const INITIAL_SHARED_STATE: TermSharedState = {
 };
 
 function App() {
-  const [timer, setTimer] = useState(54 * 60 + 20);
+  const [timer, setTimer] = useState(60 * 60);
 
   const [sharedData, setSharedData] = useState<TermSharedState>(INITIAL_SHARED_STATE);
   const [valuation, setValuation] = useState<number>(0);

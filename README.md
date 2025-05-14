@@ -1,5 +1,3 @@
-Okay, here's a comprehensive README file for the negotiation simulation system you've built.
-
 # Negotiation Simulation System
 
 ## Project Overview
@@ -45,8 +43,7 @@ This project is a negotiation simulation system developed as a solution to a tec
   - Framework: ReactJS (with TypeScript)
   - UI Components: ShadCN UI
   - Styling: TailwindCSS
-  - State Management: React Hooks (`useState`, `useEffect`)
-- **Database Management:** Docker (for running PostgreSQL in a container)
+- **Database Management:** PostgreSQL (for running on Docker in a container)
 - **Development Environment:**
   - Node.js & yarn (for frontend)
   - Python (for backend)
